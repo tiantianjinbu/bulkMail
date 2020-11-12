@@ -1,0 +1,71 @@
+{
+    "mailSenderFile": "./163手机1万.txt",
+    "mailSenderStart": 1,
+    "mailSenderCount": 13,
+    "mailReceiverFile": "./收件箱.txt",
+    "mailReceiverStart":100,
+    "mailReceiverCount":13,
+    "mailReceiverTestFile": "./邮箱自测.txt",
+    "mailReceiverTestStart":1,
+    "mailReceiverTestCount":3,    
+    "mailVariableFile":"./邮箱变量.txt",
+    "mailVariableNeed":true,
+    "mailImageFile":"./p21.jpeg",
+    "mailTempleteFile":"./mailTemplete.txt",
+    "mailImageNeed":false,
+    "mailPlainText":false,
+	"mailAccountMaxParallel":6,
+	"mailAccountMaxEachSend":3,
+	"mailAccountMaxTotalSend":10,
+	"waitTimeEachSend":5000,
+	"backServerPort":3000,
+	"mongoCfg": {
+		"ip":"127.0.0.1",
+		"port":"27017"
+	},
+    "proxy":{
+        "useProxy":true,
+        "proxyApiKey":"xxxxxxxxxxxxxxxxxxxxxxxx",
+		"whiteIpIndex":3
+    },
+	"chaoJiYing":{
+		"user":"xxxxxxxx",
+		"password":"xxxxxxxx",
+		"softid":"xxxxxxxx"
+	},	
+	"puppeteer":{
+		"maxConcurrency":1,
+		"timeout":90000,
+		"headless":true
+	},
+	"nodeCluster":{
+		"maxCore": 1
+	},
+	"mailContentList": [
+		{
+		"mailSubject":"哈哈",
+		"mailContent":"哈哈",
+		"mailImage":""
+		},
+		{
+		"mailSubject":"呵呵",
+		"mailContent":"呵呵",
+		"mailImage":""
+		},
+		{
+		"mailSubject":"",
+		"mailContent":"",
+		"mailImage":""
+		},
+		{
+		"mailSubject":"",
+		"mailContent":"",
+		"mailImage":""
+		},
+		{
+		"mailSubject":"",
+		"mailContent":"",
+		"mailImage":""
+		}
+	]
+  }

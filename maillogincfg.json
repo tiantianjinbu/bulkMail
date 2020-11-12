@@ -1,0 +1,31 @@
+{
+    "proxy":{
+        "useProxy":false,
+        "proxyApiKey":"xxxxxxxxxxxxxxxxxxxxx",
+		"whiteIpIndex":3
+    },
+	"chaoJiYing":{
+		"user":"xxxxxxxxx",
+		"password":"xxxxxxxx",
+		"softid":"xxxxxxx"
+	},
+	"maxLoginCountEachIp":15,
+	"mailSenderFile":{
+		"filename":"./126新1.txt",
+		"webType":"126"
+	},
+	"puppeteer":{
+		"maxConcurrency":1,
+		"timeout":90000,
+		"headless":false
+	},
+	"mongoCfg": {
+		"ip":"127.0.0.1",
+		"port":"27017"
+	},	
+	"nodeCluster":{
+		"maxCore":1
+	},
+	"backServerPort":4000,
+	"authReCheck":true
+}

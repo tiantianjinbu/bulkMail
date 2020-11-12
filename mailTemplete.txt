@@ -1,0 +1,23 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<style>
+    font{
+        line-height: 1.6;
+    }
+    ul,ol{
+        padding-left: 20px;
+        list-style-position: inside;
+    }
+</style>
+<div style="font-family:微软雅黑,Verdana,&quot;Microsoft Yahei&quot;,SimSun,sans-serif;font-size:14px; line-height:1.6;">
+    <div></div><div>
+    <div>
+        <span>
+            mail-content</span></div><div><span><br></span></div><div><img src="image-cid"></div>
+</div><!---->
+</div>
+</body>
+</html>
