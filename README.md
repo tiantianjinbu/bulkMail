@@ -4,10 +4,11 @@
 
 
 
-1 批量登录:
+## 1 批量登录:
 node BulkLoginCluster.js
 
 配置文件 maillogincfg.json设置说明
+```
 {
     "proxy":{                                           -- 豌豆代理设置，  https://h.wandouip.com/
         "useProxy":false,                               -- 是否使用代理ip来进行邮箱登录,获取cookie
@@ -39,12 +40,12 @@ node BulkLoginCluster.js
 	"backServerPort":4000,                              --- 运行结果前端展示端口号
 	"authReCheck":true
 }
+```
 
-
-2 发送邮件
+## 2 发送邮件
 node BulkWebMailCluster.js
 配置文件 mailcfg.json 设置说明
-
+```
 {
     "mailSenderFile": "./163手机1万.txt",               --- 废弃， 发件箱资源从存取到mongo db里面的cookie中获取
     "mailSenderStart": 1,                               --- 发件箱开始index
@@ -116,13 +117,13 @@ node BulkWebMailCluster.js
 		}
 	]
   }
+```
 
-
-3 测试一个邮件用cookie发信
+## 3 测试一个邮件用cookie发信
 node WebMail.js sendMail xxxxxxxxxx@163.com
 
 
-4 删除超时的cookie记录
+## 4 删除超时的cookie记录
 node WebMail.js delTimeout
 
 
